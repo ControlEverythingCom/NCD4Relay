@@ -1,15 +1,15 @@
 # About
 
-This Library is intended for use with NCD 4 Relay Spark Core/Photon compatible relay controllers.
+This Library is intended for use with NCD 4 Relay Particle Core/Photon compatible relay controllers.
 
 The intention of this library is to make use of the NCD 4 channel relay controller with Particle development web IDE as simple as possible for users.
 ###Developer information
 NCD has been designing and manufacturing computer control products since 1995.  We have specialized in hardware design and manufacturing of Relay controllers for 20 years.  We pride ourselves as being the industry leader of computer control relay products.  Our products are proven reliable and we are very excited to support Particle.  For more information on NCD please visit www.controlanything.com 
 
 ###Requirements
-- NCD 4 Channel Spark Core/Photon Compatible Relay board
-- Spark Core/Photon module
-- Knowledge base for developing and programming with Spark Core/Photon modules.
+- NCD 4 Channel Particle Core/Photon Compatible Relay board
+- Particle Core/Photon module
+- Knowledge base for developing and programming with Particle Core/Photon modules.
 
 ### Version
 1.0.0
@@ -56,7 +56,7 @@ delay(500);
 
 ###Public accessible methods
 ```cpp
-void setAddress(int a0, int a1);
+void setAddress(int a0, int a1, int a2);
 ```
 >Must be called first before using the object.  This method should also be called any time communication with
 >the controller is lost or broken to recover communication  This method accepts two int arguments.  This
