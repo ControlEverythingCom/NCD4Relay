@@ -1,5 +1,5 @@
 #include "NCD4Relay.h"
-#include "spark_wiring_usbserial.h"
+#include "application.h"
 
 //Comment line below out to turn off Serial logging
 #define LOGGING
