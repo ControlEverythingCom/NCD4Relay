@@ -1,5 +1,4 @@
-#include "spark_wiring_i2c.h"
-#include "spark_wiring_usbserial.h"
+#include "application.h"
 
 class NCD4Relay{
 public:
