@@ -3,7 +3,7 @@
 
 NCD4Relay relayController;
 
-//SYSTEM_MODE(MANUAL);
+SYSTEM_MODE(AUTOMATIC);
 
 int triggerRelay(String command);
 
