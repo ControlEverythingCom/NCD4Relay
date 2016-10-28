@@ -436,9 +436,9 @@ int NCD4Relay::readInputStatus(int input){
     Wire.requestFrom(address, 1);
     byte bankStatus = Wire.read();
     if(bankStatus & value){
-        return 1;
-    }else{
         return 0;
+    }else{
+        return 1;
     }
 }
 byte NCD4Relay::readAllInputs(){
